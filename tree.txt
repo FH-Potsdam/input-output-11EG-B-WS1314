@@ -1,0 +1,380 @@
+.
+├── LICENSE
+├── README.md
+├── _setup_tools
+│   └── make_folders.sh
+├── examples
+│   └── processing
+│       ├── location-data
+│       │   ├── gpx_processing
+│       │   │   ├── README.md
+│       │   │   ├── gpx_processing_multiplefiles
+│       │   │   │   ├── data
+│       │   │   │   │   ├── 20131013-18_04_14.gpx
+│       │   │   │   │   ├── 20131013-18_18_29.gpx
+│       │   │   │   │   ├── GPXMaster_01.gpx
+│       │   │   │   │   ├── Nush.gpx
+│       │   │   │   │   ├── RK_03.gpx
+│       │   │   │   │   ├── RK_04.gpx
+│       │   │   │   │   └── Running.gpx
+│       │   │   │   └── gpx_processing_multiplefiles.pde
+│       │   │   ├── gpx_processing_singlefile
+│       │   │   │   ├── data
+│       │   │   │   │   ├── 20131013-18_04_14.gpx
+│       │   │   │   │   ├── 20131013-18_18_29.gpx
+│       │   │   │   │   ├── GPXMaster_01.gpx
+│       │   │   │   │   ├── Nush.gpx
+│       │   │   │   │   ├── RK_03.gpx
+│       │   │   │   │   ├── RK_04.gpx
+│       │   │   │   │   └── Running.gpx
+│       │   │   │   └── gpx_processing_singlefile.pde
+│       │   │   └── gpx_processor
+│       │   │       ├── BoundingBox.pde
+│       │   │       ├── GPXReader.pde
+│       │   │       ├── Location.pde
+│       │   │       ├── Segment.pde
+│       │   │       ├── Track.pde
+│       │   │       ├── data
+│       │   │       │   ├── 20131013-18_04_14.gpx
+│       │   │       │   ├── 20131013-18_18_29.gpx
+│       │   │       │   ├── GPXMaster_01.gpx
+│       │   │       │   ├── Nush.gpx
+│       │   │       │   ├── RK_03.gpx
+│       │   │       │   ├── RK_04.gpx
+│       │   │       │   └── Running.gpx
+│       │   │       └── gpx_processor.pde
+│       │   ├── json_processing
+│       │   │   ├── LICENSE
+│       │   │   ├── README.md
+│       │   │   ├── data
+│       │   │   │   └── openpaths-simple.json
+│       │   │   ├── json_processing.pde
+│       │   │   ├── json_processing.sublime-project
+│       │   │   ├── json_processing.sublime-workspace
+│       │   │   ├── sketch.properties
+│       │   │   └── web-export
+│       │   │       ├── index.html
+│       │   │       ├── json_processing.pde
+│       │   │       ├── openpaths-simple.json
+│       │   │       └── processing.js
+│       │   └── tsv_processing
+│       │       ├── LICENSE
+│       │       ├── README.md
+│       │       ├── build-tmp
+│       │       │   ├── openpaths_simple_tsv$Location.class
+│       │       │   ├── openpaths_simple_tsv.class
+│       │       │   └── source
+│       │       │       ├── openpaths_simple.java
+│       │       │       └── openpaths_simple_tsv.java
+│       │       ├── data
+│       │       │   ├── openpaths-simple.csv
+│       │       │   └── openpaths-simple.tsv
+│       │       ├── sketch.properties
+│       │       ├── tsv_processing.pde
+│       │       ├── tsv_processing.sublime-project
+│       │       └── tsv_processing.sublime-workspace
+│       ├── sol-lewitt
+│       │   ├── LICENSE
+│       │   ├── README.md
+│       │   ├── lewitt154
+│       │   │   ├── lewitt-154.png
+│       │   │   └── lewitt154.pde
+│       │   ├── lewitt422
+│       │   │   ├── lewitt-422.png
+│       │   │   └── lewitt422.pde
+│       │   ├── lewitt462
+│       │   │   ├── lewitt-462.png
+│       │   │   └── lewitt462.pde
+│       │   ├── lewitt630
+│       │   │   ├── lewitt-630.png
+│       │   │   └── lewitt630.pde
+│       │   └── lewitt797
+│       │       ├── lewitt-797.png
+│       │       └── lewitt797.pde
+│       ├── tuio
+│       │   └── TuioDemoStripped
+│       │       ├── LICENSE
+│       │       ├── README.md
+│       │       ├── TUIOMethods.pde
+│       │       └── TuioDemoStripped_11EG_B_WS1314.pde
+│       └── unfolding-maps
+│           └── gpx_on_unfoldingmaps
+│               ├── GPXReader.pde
+│               ├── LICENSE
+│               ├── README.md
+│               ├── Segment.pde
+│               ├── Track.pde
+│               ├── data
+│               │   ├── 2013-11-19_GPS_Anweisung_Nushin.gpx
+│               │   ├── 20131013-18_04_14.gpx
+│               │   ├── 20131013-18_18_29.gpx
+│               │   ├── GPXMaster_01.gpx
+│               │   ├── Ghost\ ORIGINAL.gpx
+│               │   ├── Nush.gpx
+│               │   ├── RK_03.gpx
+│               │   ├── RK_04.gpx
+│               │   ├── RK_gpx\ _2013-11-19_1339.gpx
+│               │   ├── Running.gpx
+│               │   ├── jonij.gpx
+│               │   ├── sworn.gpx
+│               │   └── tomies_anweisung_gpx.gpx
+│               └── gpx_on_unfoldingmaps.pde
+├── exercises
+│   ├── bildspaziergang
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── _setup_tools
+│   │   │   ├── add_links_to_README.sh
+│   │   │   └── make_folders.sh
+│   │   ├── dasrehman
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── davidroettger
+│   │   │   ├── README.md
+│   │   │   ├── data
+│   │   │   │   ├── david1.gpx
+│   │   │   │   ├── david2.gpx
+│   │   │   │   └── david3.gpx
+│   │   │   ├── schiller_pattern.pde
+│   │   │   └── screenshot.png
+│   │   ├── dueuel
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── ebird-design
+│   │   │   ├── README.md
+│   │   │   ├── gpx_hufeisen
+│   │   │   └── screenshot.png
+│   │   ├── jensra
+│   │   │   ├── README.md
+│   │   │   ├── gpx_processing
+│   │   │   │   ├── data
+│   │   │   │   │   ├── 2013-11-13-1246.gpx
+│   │   │   │   │   ├── 20131013-18_04_14.gpx
+│   │   │   │   │   ├── 20131013-18_18_29.gpx
+│   │   │   │   │   ├── GPXMaster_01.gpx
+│   │   │   │   │   ├── RK_01.gpx
+│   │   │   │   │   ├── RK_02.gpx
+│   │   │   │   │   ├── RK_03.gpx
+│   │   │   │   │   ├── RK_04.gpx
+│   │   │   │   │   └── anweisung_martin.gpx
+│   │   │   │   └── gpx_processing.pde
+│   │   │   └── screenshot.png
+│   │   ├── jonij
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── lightwaveez
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── martinlexow
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── nushin
+│   │   │   ├── README.md
+│   │   │   ├── gpx_processing_Ghost
+│   │   │   │   ├── data
+│   │   │   │   │   ├── 20131013-18_04_14.gpx
+│   │   │   │   │   ├── 20131013-18_18_29.gpx
+│   │   │   │   │   ├── GPXMaster_01.gpx
+│   │   │   │   │   ├── Ghost\ 1.gpx
+│   │   │   │   │   ├── Ghost\ 2.gpx
+│   │   │   │   │   ├── Ghost\ 3.gpx
+│   │   │   │   │   ├── Ghost\ 4.gpx
+│   │   │   │   │   ├── Ghost\ ORIGINAL.gpx
+│   │   │   │   │   ├── Ghost\ eins.gpx
+│   │   │   │   │   ├── Ghost\ u.gpx
+│   │   │   │   │   ├── Nush.gpx
+│   │   │   │   │   ├── Nush2.gpx
+│   │   │   │   │   ├── RK_01.gpx
+│   │   │   │   │   ├── RK_02.gpx
+│   │   │   │   │   ├── RK_03.gpx
+│   │   │   │   │   └── RK_04.gpx
+│   │   │   │   ├── gps_track_01.pdf
+│   │   │   │   └── gpx_processing_Ghost.pde
+│   │   │   └── screen.png
+│   │   ├── pfingstday
+│   │   │   ├── README.md
+│   │   │   ├── data
+│   │   │   │   └── 2013-11-19_GPS_Anweisung_Nushin.gpx
+│   │   │   ├── gps_track_01.pdf
+│   │   │   ├── gpx_processing_pfingstday.pde
+│   │   │   └── screenshot.png
+│   │   ├── ronleisner
+│   │   │   ├── README.md
+│   │   │   ├── data
+│   │   │   │   └── RK_gpx\ _2013-11-19_1339.gpx
+│   │   │   ├── gps_track_01.pdf
+│   │   │   ├── gpx_processing.pde
+│   │   │   └── screenshot.png
+│   │   ├── sacred45
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── thrill2212
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── tilokrueger
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── tomie89
+│   │   │   ├── README.md
+│   │   │   ├── data
+│   │   │   │   └── RK_gpx\ _2013-11-19_1606.gpx
+│   │   │   ├── gps_track_sworn.pdf
+│   │   │   ├── gpx_sworn.pde
+│   │   │   └── screenshot.png
+│   │   └── wookeeeee
+│   │       ├── Jinwooks_Route.gpx
+│   │       ├── README.md
+│   │       └── screenshot.png
+│   ├── bildspaziergang-gpx-data
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── _setup_tools
+│   │   │   ├── add_links_to_README.sh
+│   │   │   └── make_folders.sh
+│   │   ├── dasrehman
+│   │   ├── davidroettger
+│   │   │   ├── david_r_name.gpx
+│   │   │   └── david_r_pattern.gpx
+│   │   ├── dueuel
+│   │   ├── ebird-design
+│   │   ├── jensra
+│   │   │   └── jensra_track.gpx
+│   │   ├── jonij
+│   │   │   └── jonij.gpx
+│   │   ├── lightwaveez
+│   │   ├── make_folders.sh
+│   │   ├── martinlexow
+│   │   ├── nushin
+│   │   │   └── Ghost\ ORIGINAL.gpx
+│   │   ├── pfingstday
+│   │   │   └── 2013-11-19_GPS_Anweisung_Nushin.gpx
+│   │   ├── ronleisner
+│   │   │   └── RK_gpx\ _2013-11-19_1339.gpx
+│   │   ├── sacred45
+│   │   │   └── gps_daten_paul_2013-11-19.gpx
+│   │   ├── thrill2212
+│   │   ├── tilokrueger
+│   │   ├── tomie89
+│   │   │   └── sworn.gpx
+│   │   └── wookeeeee
+│   │       └── tomies_anweisung_gpx.gpx
+│   ├── multitouch-experiments
+│   │   ├── README.md
+│   │   ├── dasrehman
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── davidroettger
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── dueuel
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── ebird-design
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── jensra
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── jonij
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── lightwaveez
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── martinlexow
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── nushin
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── pfingstday
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── ronleisner
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── sacred45
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── thrill2212
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── tilokrueger
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── tomie89
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   └── wookeeeee
+│   │       ├── README.md
+│   │       └── screenshot.png
+│   └── patternprocedure-analog-digital
+│       ├── LICENSE
+│       ├── README.md
+│       ├── dasrehman
+│       │   ├── README.md
+│       │   └── screenshot.png
+│       ├── davidroettger
+│       │   ├── README.md
+│       │   ├── screenshot.png
+│       │   └── sketch
+│       │       └── random_linked_cirkles.pde
+│       ├── dueuel
+│       │   ├── README.md
+│       │   └── screenshot.png
+│       ├── ebird-design
+│       │   ├── README.md
+│       │   ├── eingabe_ausgabe_befehl_v3.pde
+│       │   └── screenshot.png
+│       ├── jensra
+│       │   ├── README.md
+│       │   ├── screenshot.png
+│       │   ├── sketch_3.pde
+│       │   └── sketch_3_ftb_edit
+│       │       └── sketch_3_ftb_edit.pde
+│       ├── jonij
+│       │   ├── README.md
+│       │   └── screenshot.png
+│       ├── lightwaveez
+│       │   ├── README.md
+│       │   └── screenshot.png
+│       ├── martinlexow
+│       │   ├── LxGeneratePattern.pde
+│       │   ├── README.md
+│       │   ├── functions.pde
+│       │   └── screenshot.png
+│       ├── nushin
+│       │   ├── README.md
+│       │   └── screenshot.png
+│       ├── pfingstday
+│       │   ├── CircutOnSteroids.pde
+│       │   ├── README.md
+│       │   └── screenshot.png
+│       ├── ronleisner
+│       │   ├── README.md
+│       │   ├── anweisung_dreieck
+│       │   │   └── anweisung_dreieck.pde
+│       │   └── screenshot.png
+│       ├── sacred45
+│       │   ├── README.md
+│       │   └── screenshot.png
+│       ├── thrill2212
+│       │   ├── README.md
+│       │   └── screenshot.png
+│       ├── tilokrueger
+│       │   ├── README.md
+│       │   ├── i_o
+│       │   │   └── i_o.pde
+│       │   └── screenshot.png
+│       ├── tomie89
+│       │   ├── README.md
+│       │   └── screenshot.png
+│       └── wookeeeee
+│           ├── README.md
+│           ├── U_bersetzung_der_Anweisung
+│           │   └── U_bersetzung_der_Anweisung.pde
+│           ├── U_bersetzung_der_Anweisung.pde
+│           └── screenshot.png
+└── tree.txt
+
+113 directories, 264 files
