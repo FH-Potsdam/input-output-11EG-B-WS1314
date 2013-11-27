@@ -16,7 +16,7 @@ do
     echo "#TITLE  " >> $i/README.md
     echo "##DESCRIPTION  " >> $i/README.md
     echo "##AUTHOR  " >> $i/README.md
-    echo "Hello my name is [$i](https://github.com/$i) and I'd like ti say... " >> $i/README.md
+    echo "Hello my name is [$i](https://github.com/$i) and I'd like to say... " >> $i/README.md
     convert -size 1280x720 xc:white $i/screenshot.png
     echo "##LICENSE  " >> $i/README.md
 
