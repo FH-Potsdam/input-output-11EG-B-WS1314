@@ -1,6 +1,9 @@
 ![image](screenshot.png)  
 #TITLE  
+fhp_spaziergang
 ##DESCRIPTION  
+multitouch experiment using the TUIO and the pbox2d library
 ##AUTHOR  
-Hello my name is [jonij](https://github.com/jonij) and I'd like to say... 
+[jonij](https://github.com/jonij) 
 ##LICENSE  
+CC

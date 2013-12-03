@@ -1,6 +1,7 @@
 ![image](screenshot.png)  
 #TITLE  
-##DESCRIPTION  
+quadrate
 ##AUTHOR  
-Hello my name is [jonij](https://github.com/jonij) and I'd like ti say... 
+[jonij](https://github.com/jonij) 
 ##LICENSE  
+CC
