@@ -1,6 +1,6 @@
 ![image](screenshot.png)  
 #TITLE  
-fhp_spaziergang
+Falling Bubbles
 ##DESCRIPTION  
 multitouch experiment using the TUIO and the pbox2d library
 ##AUTHOR  
