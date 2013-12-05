@@ -12,6 +12,7 @@ __10 - 12:__
 - Philipp Voss
 - Jinwook Yun
 - Sebastian Wloch
+- Thomas Miebach mit einer Dolmetscherin
 
 __14 -16:__  
 - Jens Ravenbusch
