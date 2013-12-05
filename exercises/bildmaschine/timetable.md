@@ -1,4 +1,3 @@
-
        Dezember 2013
     So Mo Di Mi Do Fr Sa
      1  2  3  4  5  6  7
@@ -22,7 +21,7 @@ __14 -16:__
 
 ##Di 10 12 2013  
 __10 - 12:__
-- Jinwook Yun
+
 
 __14 - 16:__
 - Philipp Pfingsttag
@@ -44,6 +43,7 @@ __10 - 12:__
 - Philipp Pfingsttag
 - Tim Ebert
 - Tilo Krüger
+- Jinwook Yun
 
 __14 - 16:__  
 - Jonathan Jonas
