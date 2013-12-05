@@ -8,19 +8,55 @@
     29 30 31
 
 
-- Mo 09 12 2013  
-10 - 12 und 14 -16 Uhr
+##Mo 09 12 2013  
+__10 - 12:__  
+- Philipp Voss
+- Jinwook Yun
+- Sebastian Wloch
 
-- Di 10 12 2013  
-10 - 12 und 14 - 16 Uhr
+__14 -16:__  
+- Jens Ravenbusch
+- Paul Lehmann
+- Martin Lexow
 
-- Mi 11 12 2013  
-14 - 16 Uhr
+
+##Di 10 12 2013  
+__10 - 12:__
+- Jinwook Yun
+
+__14 - 16:__
+- Philipp Pfingsttag
+- David Rötger
+- Nushin Yazdani
+- Tim Ebert
+
+##Mi 11 12 2013  
+
+__14 - 16:__  
+- Jonathan Jonas
+- Johannes Wilke
+- Ron leisner
+- Nushin Yazdani
 
 
-- Mo 16 12 2013  
-10 - 12 und 14 - 16 Uhr
+##Mo 16 12 2013  
+__10 - 12:__  
+- Philipp Pfingsttag
+- Tim Ebert
+- Tilo Krüger
 
-- Di 17 12 2013  
-14 - 16 Uhr
+__14 - 16:__  
+- Jonathan Jonas
+- Johannes  Wilke
+- Ron Leisner  
+
+
+##Di 17 12 2013  
+__10 - 12:__  
+__14 - 16:__  
+- David Röttger  
+- Philipp Voss  
+- Tilo Krüger  
+- David Rehman  
+
 
