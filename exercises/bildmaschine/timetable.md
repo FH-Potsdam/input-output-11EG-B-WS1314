@@ -15,7 +15,7 @@ __10 - 12:__
 - Thomas Miebach mit einer Dolmetscherin
 
 __14 -16:__  
-- Jens Ravenbusch
+- Jens Rauenbusch
 - Paul Lehmann
 - Martin Lexow
 
@@ -39,8 +39,9 @@ __14 - 16:__
 - Nushin Yazdani
 
 ##Do 12 12 2013  
-__10 - 12:__  
-__14 - 16:__  
+__10 - 12:__
+__14 - 16:__
+- Jens Rauenbusch
 
 ##Do 13 12 2013  
 __10 - 12:__  
