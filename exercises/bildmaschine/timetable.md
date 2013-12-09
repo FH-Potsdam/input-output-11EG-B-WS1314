@@ -41,6 +41,7 @@ __14 - 16:__
 ##Do 12 12 2013  
 __10 - 12:__  
 __14 - 16:__  
+- Tilo Krüger
 - Jens Rauenbusch
 - Paul Lehmann
 - Philipp Voss
@@ -55,7 +56,6 @@ __14 - 16:__
 __10 - 12:__  
 - Philipp Pfingsttag
 - Tim Ebert
-- Tilo Krüger
 - Jinwook Yun
 
 __14 - 16:__  
