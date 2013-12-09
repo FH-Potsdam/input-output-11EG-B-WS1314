@@ -22,7 +22,7 @@ __14 -16:__
 
 ##Di 10 12 2013  
 __10 - 12:__
-
+-Thomas Miebach mit einer Dolmetscherin
 
 __14 - 16:__
 - Philipp Pfingsttag
