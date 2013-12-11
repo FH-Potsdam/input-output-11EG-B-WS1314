@@ -40,7 +40,7 @@ __14 - 16:__
 
 ##Do 12 12 2013  
 __10 - 12:__
-- Jinwook Yun
+
 
 __14 - 16:__  
 - Tilo Krüger
@@ -73,6 +73,7 @@ __14 - 16:__
 - David Röttger  
 - Philipp Voss  
 - Tilo Krüger  
-- David Rehman  
+- David Rehman
+- Jinwook Yun
 
 
