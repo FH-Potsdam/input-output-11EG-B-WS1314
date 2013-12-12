@@ -1,6 +1,9 @@
 ![image](screenshot.png)  
 #TITLE  
-##DESCRIPTION  
+MultiTouch-Fragments
+##DESCRIPTION 
+Draws rectangles with two acute and two obstuse angles while touching.
 ##AUTHOR  
-Hello my name is [martinlexow](https://github.com/martinlexow) and I'd like to say... 
-##LICENSE  
+[martinlexow](https://github.com/martinlexow)
+##LICENSE
+open source

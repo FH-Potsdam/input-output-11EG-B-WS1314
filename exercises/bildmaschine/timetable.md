@@ -15,14 +15,14 @@ __10 - 12:__
 - Thomas Miebach mit einer Dolmetscherin
 
 __14 -16:__  
-- Jens Ravenbusch
+- Jens Rauenbusch
 - Paul Lehmann
 - Martin Lexow
 
 
 ##Di 10 12 2013  
 __10 - 12:__
-
+-Thomas Miebach mit einer Dolmetscherin
 
 __14 - 16:__
 - Philipp Pfingsttag
@@ -39,8 +39,15 @@ __14 - 16:__
 - Nushin Yazdani
 
 ##Do 12 12 2013  
-__10 - 12:__  
+__10 - 12:__
+
+
 __14 - 16:__  
+- Tilo Krüger
+- Jens Rauenbusch
+- Paul Lehmann
+- Philipp Voss
+- David Röttger
 
 ##Do 13 12 2013  
 __10 - 12:__  
@@ -51,7 +58,6 @@ __14 - 16:__
 __10 - 12:__  
 - Philipp Pfingsttag
 - Tim Ebert
-- Tilo Krüger
 - Jinwook Yun
 
 __14 - 16:__  
@@ -62,10 +68,12 @@ __14 - 16:__
 
 ##Di 17 12 2013  
 __10 - 12:__  
+ULab. NICHT VERFÜGBAR  
 __14 - 16:__  
 - David Röttger  
 - Philipp Voss  
 - Tilo Krüger  
-- David Rehman  
+- David Rehman
+- Jinwook Yun
 
 
