@@ -102,6 +102,6 @@ void setup() {
   endRecord();
   exit();// and nd the sketch
   }
-  saveFrame("screen.png");
+  saveFrame("screenshot.png");
 }
 

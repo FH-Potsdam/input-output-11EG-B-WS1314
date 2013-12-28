@@ -2,3 +2,5 @@
 build-tmp/
 *.sublime-workspace
 *.sublime-project
+
+examples/processing/eyetracker-data/tobii_eyetracker_csv_reading
