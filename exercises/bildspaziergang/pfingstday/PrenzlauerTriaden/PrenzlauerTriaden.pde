@@ -3,7 +3,7 @@
  * edited for P2 by Fabian Moron Zirfas
  */
 import processing.pdf.*; // this is just for export purpose
-Boolean writepdf = true;
+Boolean writepdf = false;
  // if true the sketch will create a PDF
 
 
