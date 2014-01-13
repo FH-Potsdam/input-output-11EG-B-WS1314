@@ -1,6 +1,3 @@
-[submodule "examples/processing/eyetracker-data/tobii_eyetracker_csv_reading"]
-  path = examples/processing/eyetracker-data/tobii_eyetracker_csv_reading
-  url = git@github.com:FH-Potsdam/tobii_eytracker_csv_reading.git
 [submodule "examples/arduino/digitalio"]
   path = examples/arduino/digitalio
   url = git@github.com:fabiantheblind/digitalio.git
