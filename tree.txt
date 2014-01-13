@@ -2,9 +2,114 @@
 ├── LICENSE
 ├── README.md
 ├── _setup_tools
+│   ├── add_links_to_README.sh
+│   ├── make-folders-and-README.sh
 │   └── make_folders.sh
 ├── examples
+│   ├── arduino
+│   │   ├── analogio
+│   │   │   ├── LICENSE
+│   │   │   ├── README.md
+│   │   │   ├── lightTheremin
+│   │   │   │   ├── README.md
+│   │   │   │   ├── fritzing-layout.png
+│   │   │   │   ├── lightTheremin.fzz
+│   │   │   │   └── lightTheremin.ino
+│   │   │   ├── light_dependend_resistor
+│   │   │   │   ├── README.md
+│   │   │   │   ├── fritzing-layout.png
+│   │   │   │   ├── light_dependend_resistor.fzz
+│   │   │   │   └── light_dependend_resistor.ino
+│   │   │   ├── potentiometer
+│   │   │   │   ├── README.md
+│   │   │   │   ├── potentiometer.fzz
+│   │   │   │   ├── potentiometer.ino
+│   │   │   │   └── potentiometer.png
+│   │   │   ├── pulse_width_modulation
+│   │   │   │   ├── README.md
+│   │   │   │   ├── pulse_width_modulation.fzz
+│   │   │   │   ├── pulse_width_modulation.ino
+│   │   │   │   └── pulse_width_modulation.png
+│   │   │   ├── servomotor
+│   │   │   │   └── README.md
+│   │   │   ├── temperature
+│   │   │   │   ├── README.md
+│   │   │   │   ├── fritzing-layout.png
+│   │   │   │   ├── temperature.fzz
+│   │   │   │   └── temperature.ino
+│   │   │   └── temperature_AREF
+│   │   │       ├── fritzing-layout.png
+│   │   │       ├── temperature_AREF.fzz
+│   │   │       └── temperature_AREF.ino
+│   │   └── digitalio
+│   │       ├── IC_4017B_Graph
+│   │       │   ├── 4017-functional-diagram.png
+│   │       │   ├── 4017-pinlayout.png
+│   │       │   ├── IC_4017B_Graph.fzz
+│   │       │   ├── IC_4017B_Graph.ino
+│   │       │   ├── README.md
+│   │       │   └── fritzing-layout.png
+│   │       ├── IC_4017B_Graph_PushDetect
+│   │       │   ├── 4017-functional-diagram.png
+│   │       │   ├── 4017-pinlayout.png
+│   │       │   ├── IC_4017B_Graph_PushDetect.fzz
+│   │       │   ├── IC_4017B_Graph_PushDetect.ino
+│   │       │   ├── README.md
+│   │       │   └── fritzing-layout.png
+│   │       ├── IC_74HC595_Graph
+│   │       │   ├── IC_74HC595_Graph.fzz
+│   │       │   ├── IC_74HC595_Graph_layout.png
+│   │       │   ├── Ic_74HC595_Graph.ino
+│   │       │   ├── README.md
+│   │       │   └── fritzing-layout.png
+│   │       ├── LICENSE
+│   │       ├── README.md
+│   │       ├── SevenSegmentDisplay
+│   │       │   ├── README.md
+│   │       │   ├── SevenSegmentDisplay.fzz
+│   │       │   └── fritzing-layout.png
+│   │       ├── blink
+│   │       │   ├── blink.fzz
+│   │       │   ├── blink.ino
+│   │       │   ├── blink.png
+│   │       │   └── fritzing-layout.png
+│   │       ├── infrared
+│   │       │   ├── advancedinfrared
+│   │       │   │   └── README.md
+│   │       │   └── simpleinfrared
+│   │       │       ├── README.md
+│   │       │       ├── fritzing-layout.png
+│   │       │       ├── simpleinfrared.fzz
+│   │       │       └── simpleinfrared.ino
+│   │       ├── pushbutton
+│   │       │   ├── README.md
+│   │       │   ├── fritzing-layout.png
+│   │       │   ├── pushbutton.fzz
+│   │       │   ├── pushbutton.ino
+│   │       │   └── pushbutton.png
+│   │       └── tiltswitch
+│   │           ├── README.md
+│   │           ├── fritzing-layout.png
+│   │           ├── tiltswitch.fzz
+│   │           ├── tiltswitch.ino
+│   │           └── tiltswitch.png
 │   └── processing
+│       ├── eyetracker-data
+│       │   └── tobii_eyetracker_csv_reading
+│       │       ├── CSVFile.pde
+│       │       ├── CSVReader.pde
+│       │       ├── Cell.pde
+│       │       ├── Column.pde
+│       │       ├── File.pde
+│       │       ├── Header.pde
+│       │       ├── LICENSE
+│       │       ├── README.md
+│       │       ├── Row.pde
+│       │       ├── Table.pde
+│       │       ├── csvfiles
+│       │       │   └── tobii-CSVExport-All-Data-noheader-nofilter.tsv
+│       │       ├── screen.png
+│       │       └── tobii_eyetracker_csv_reading.pde
 │       ├── location-data
 │       │   ├── gpx_processing
 │       │   │   ├── README.md
@@ -49,8 +154,6 @@
 │       │   │   ├── data
 │       │   │   │   └── openpaths-simple.json
 │       │   │   ├── json_processing.pde
-│       │   │   ├── json_processing.sublime-project
-│       │   │   ├── json_processing.sublime-workspace
 │       │   │   ├── sketch.properties
 │       │   │   └── web-export
 │       │   │       ├── index.html
@@ -60,19 +163,11 @@
 │       │   └── tsv_processing
 │       │       ├── LICENSE
 │       │       ├── README.md
-│       │       ├── build-tmp
-│       │       │   ├── openpaths_simple_tsv$Location.class
-│       │       │   ├── openpaths_simple_tsv.class
-│       │       │   └── source
-│       │       │       ├── openpaths_simple.java
-│       │       │       └── openpaths_simple_tsv.java
 │       │       ├── data
 │       │       │   ├── openpaths-simple.csv
 │       │       │   └── openpaths-simple.tsv
 │       │       ├── sketch.properties
-│       │       ├── tsv_processing.pde
-│       │       ├── tsv_processing.sublime-project
-│       │       └── tsv_processing.sublime-workspace
+│       │       └── tsv_processing.pde
 │       ├── sol-lewitt
 │       │   ├── LICENSE
 │       │   ├── README.md
@@ -120,12 +215,142 @@
 │               │   └── tomies_anweisung_gpx.gpx
 │               └── gpx_on_unfoldingmaps.pde
 ├── exercises
+│   ├── IOApparate
+│   │   ├── README.md
+│   │   ├── dasrehman
+│   │   │   ├── IOApparat_dasrehman.ino
+│   │   │   ├── README.md
+│   │   │   ├── fritzing-layout.png
+│   │   │   └── screenshot.png
+│   │   ├── davidroettger
+│   │   │   ├── IOApparat_davidroettger.ino
+│   │   │   ├── README.md
+│   │   │   ├── fritzing-layout.png
+│   │   │   └── screenshot.png
+│   │   ├── dueuel
+│   │   │   ├── IOApparat_dueuel.ino
+│   │   │   ├── README.md
+│   │   │   ├── fritzing-layout.png
+│   │   │   └── screenshot.png
+│   │   ├── ebird-design
+│   │   │   ├── IOApparat_ebird-design.ino
+│   │   │   ├── README.md
+│   │   │   ├── fritzing-layout.png
+│   │   │   └── screenshot.png
+│   │   ├── jensra
+│   │   │   ├── IOApparat_jensra.ino
+│   │   │   ├── README.md
+│   │   │   ├── fritzing-layout.png
+│   │   │   └── screenshot.png
+│   │   ├── jonij
+│   │   │   ├── IOApparat_jonij.ino
+│   │   │   ├── README.md
+│   │   │   ├── fritzing-layout.png
+│   │   │   └── screenshot.png
+│   │   ├── lightwaveez
+│   │   │   ├── IOApparat_lightwaveez.ino
+│   │   │   ├── README.md
+│   │   │   ├── fritzing-layout.png
+│   │   │   └── screenshot.png
+│   │   ├── martinlexow
+│   │   │   ├── IOApparat_martinlexow.ino
+│   │   │   ├── README.md
+│   │   │   ├── fritzing-layout.png
+│   │   │   └── screenshot.png
+│   │   ├── nushin
+│   │   │   ├── IOApparat_nushin.ino
+│   │   │   ├── README.md
+│   │   │   ├── fritzing-layout.png
+│   │   │   └── screenshot.png
+│   │   ├── pfingstday
+│   │   │   ├── IOApparat_pfingstday.ino
+│   │   │   ├── README.md
+│   │   │   ├── fritzing-layout.png
+│   │   │   └── screenshot.png
+│   │   ├── ronleisner
+│   │   │   ├── IOApparat_ronleisner.ino
+│   │   │   ├── README.md
+│   │   │   ├── fritzing-layout.png
+│   │   │   └── screenshot.png
+│   │   ├── sacred45
+│   │   │   ├── IOApparat_sacred45.ino
+│   │   │   ├── README.md
+│   │   │   ├── fritzing-layout.png
+│   │   │   └── screenshot.png
+│   │   ├── thrill2212
+│   │   │   ├── IOApparat_thrill2212.ino
+│   │   │   ├── README.md
+│   │   │   ├── fritzing-layout.png
+│   │   │   └── screenshot.png
+│   │   ├── tilokrueger
+│   │   │   ├── IOApparat_tilokrueger.ino
+│   │   │   ├── README.md
+│   │   │   ├── fritzing-layout.png
+│   │   │   └── screenshot.png
+│   │   ├── tomie89
+│   │   │   ├── IOApparat_tomie89.ino
+│   │   │   ├── README.md
+│   │   │   ├── fritzing-layout.png
+│   │   │   └── screenshot.png
+│   │   └── wookeeeee
+│   │       ├── IOApparat_wookeeeee.ino
+│   │       ├── README.md
+│   │       ├── fritzing-layout.png
+│   │       └── screenshot.png
+│   ├── bildmaschine
+│   │   ├── README.md
+│   │   ├── dasrehman
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── davidroettger
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── dueuel
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── ebird-design
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── jensra
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── jonij
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── lightwaveez
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── martinlexow
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── nushin
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── pfingstday
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── ronleisner
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── sacred45
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── thrill2212
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── tilokrueger
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   ├── timetable.md
+│   │   ├── tomie89
+│   │   │   ├── README.md
+│   │   │   └── screenshot.png
+│   │   └── wookeeeee
+│   │       ├── README.md
+│   │       └── screenshot.png
 │   ├── bildspaziergang
 │   │   ├── LICENSE
 │   │   ├── README.md
-│   │   ├── _setup_tools
-│   │   │   ├── add_links_to_README.sh
-│   │   │   └── make_folders.sh
 │   │   ├── dasrehman
 │   │   │   ├── README.md
 │   │   │   └── screenshot.png
@@ -161,11 +386,17 @@
 │   │   │   └── screenshot.png
 │   │   ├── jonij
 │   │   │   ├── README.md
+│   │   │   ├── fhp_spaziergang
+│   │   │   │   ├── data
+│   │   │   │   │   └── jonij.gpx
+│   │   │   │   └── fhp_spaziergang.pde
 │   │   │   └── screenshot.png
 │   │   ├── lightwaveez
 │   │   │   ├── README.md
 │   │   │   └── screenshot.png
 │   │   ├── martinlexow
+│   │   │   ├── GPS-Anweisung-fuer-Jens.pdf
+│   │   │   ├── GPS-Ergebnisse.pdf
 │   │   │   ├── README.md
 │   │   │   └── screenshot.png
 │   │   ├── nushin
@@ -190,13 +421,14 @@
 │   │   │   │   │   └── RK_04.gpx
 │   │   │   │   ├── gps_track_01.pdf
 │   │   │   │   └── gpx_processing_Ghost.pde
-│   │   │   └── screen.png
+│   │   │   └── screenshot.png
 │   │   ├── pfingstday
+│   │   │   ├── PrenzlauerTriaden
+│   │   │   │   ├── PrenzlauerTriaden.pde
+│   │   │   │   ├── data
+│   │   │   │   │   └── 2013-11-19_GPS_Anweisung_Nushin.gpx
+│   │   │   │   └── screen.png
 │   │   │   ├── README.md
-│   │   │   ├── data
-│   │   │   │   └── 2013-11-19_GPS_Anweisung_Nushin.gpx
-│   │   │   ├── gps_track_01.pdf
-│   │   │   ├── gpx_processing_pfingstday.pde
 │   │   │   └── screenshot.png
 │   │   ├── ronleisner
 │   │   │   ├── README.md
@@ -228,9 +460,6 @@
 │   ├── bildspaziergang-gpx-data
 │   │   ├── LICENSE
 │   │   ├── README.md
-│   │   ├── _setup_tools
-│   │   │   ├── add_links_to_README.sh
-│   │   │   └── make_folders.sh
 │   │   ├── dasrehman
 │   │   ├── davidroettger
 │   │   │   ├── david_r_name.gpx
@@ -244,6 +473,7 @@
 │   │   ├── lightwaveez
 │   │   ├── make_folders.sh
 │   │   ├── martinlexow
+│   │   │   └── RK_gpx\ _2013-11-17_1329.gpx
 │   │   ├── nushin
 │   │   │   └── Ghost\ ORIGINAL.gpx
 │   │   ├── pfingstday
@@ -254,10 +484,19 @@
 │   │   │   └── gps_daten_paul_2013-11-19.gpx
 │   │   ├── thrill2212
 │   │   ├── tilokrueger
+│   │   │   ├── 2013-11-18-1448.gpx
+│   │   │   ├── 2013-11-18-1456.gpx
+│   │   │   ├── 2013-11-18-1500.gpx
+│   │   │   ├── 2013-11-18-1505.gpx
+│   │   │   ├── 2013-11-18-1628.gpx
+│   │   │   ├── 2013-11-19-1640.gpx
+│   │   │   └── RK_gpx\ _2013-11-20_0851.gpx
 │   │   ├── tomie89
 │   │   │   └── sworn.gpx
 │   │   └── wookeeeee
 │   │       └── tomies_anweisung_gpx.gpx
+│   ├── issues.md
+│   ├── issues.png
 │   ├── multitouch-experiments
 │   │   ├── README.md
 │   │   ├── dasrehman
@@ -271,27 +510,65 @@
 │   │   │   └── screenshot.png
 │   │   ├── ebird-design
 │   │   │   ├── README.md
+│   │   │   ├── particle_fireworks_fingers
+│   │   │   │   ├── Particle.pde
+│   │   │   │   ├── ParticleSystem.pde
+│   │   │   │   ├── Particles_try3.pde
+│   │   │   │   └── data
+│   │   │   │       └── sprite.png
 │   │   │   └── screenshot.png
 │   │   ├── jensra
+│   │   │   ├── LICENSE
 │   │   │   ├── README.md
+│   │   │   ├── TUIOMethods.pde
+│   │   │   ├── TuioDemoStripped_11EG_B_WS1314.pde
 │   │   │   └── screenshot.png
 │   │   ├── jonij
 │   │   │   ├── README.md
+│   │   │   ├── multitouch
+│   │   │   │   ├── Box.pde
+│   │   │   │   ├── code
+│   │   │   │   │   ├── TUIO.jar
+│   │   │   │   │   ├── jbox2d_2.1.2_ds_v2.jar
+│   │   │   │   │   ├── libTUIO.jar
+│   │   │   │   │   ├── pbox2d.jar
+│   │   │   │   │   ├── slf4j-api-1.6.4.jar
+│   │   │   │   │   └── slf4j-nop-1.6.4.jar
+│   │   │   │   └── multitouch.pde
 │   │   │   └── screenshot.png
 │   │   ├── lightwaveez
 │   │   │   ├── README.md
 │   │   │   └── screenshot.png
 │   │   ├── martinlexow
 │   │   │   ├── README.md
+│   │   │   ├── TuioDemoLx.pde
+│   │   │   ├── screenshot-2.png
+│   │   │   ├── screenshot-3.png
 │   │   │   └── screenshot.png
 │   │   ├── nushin
 │   │   │   ├── README.md
-│   │   │   └── screenshot.png
+│   │   │   ├── Tuio_Nu_Wuermer
+│   │   │   │   ├── Tuio_Nu_Wuermer.pde
+│   │   │   │   ├── screen1.png
+│   │   │   │   ├── screen2.png
+│   │   │   │   ├── screen3.png
+│   │   │   │   ├── screen4.png
+│   │   │   │   └── screen5.png
+│   │   │   ├── screenshot.png
+│   │   │   └── screenshot2.png
 │   │   ├── pfingstday
 │   │   │   ├── README.md
+│   │   │   ├── VibratingCircles
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── README.md
+│   │   │   │   ├── TUIOMethods.pde
+│   │   │   │   └── VibratingCircles.pde
 │   │   │   └── screenshot.png
 │   │   ├── ronleisner
 │   │   │   ├── README.md
+│   │   │   ├── TUIOMethods
+│   │   │   │   └── TUIOMethods.pde
+│   │   │   ├── multitouch_experiment_ron_Leisner.pde
 │   │   │   └── screenshot.png
 │   │   ├── sacred45
 │   │   │   ├── README.md
@@ -301,9 +578,29 @@
 │   │   │   └── screenshot.png
 │   │   ├── tilokrueger
 │   │   │   ├── README.md
+│   │   │   ├── Tongseng_test_2
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── README.md
+│   │   │   │   ├── TUIOMethods.pde
+│   │   │   │   ├── Tongseng.app
+│   │   │   │   │   └── Contents
+│   │   │   │   │       ├── Info.plist
+│   │   │   │   │       ├── MacOS
+│   │   │   │   │       │   └── Tongseng
+│   │   │   │   │       ├── PkgInfo
+│   │   │   │   │       └── Resources
+│   │   │   │   │           └── English.lproj
+│   │   │   │   │               ├── InfoPlist.strings
+│   │   │   │   │               └── MainMenu.nib
+│   │   │   │   └── Tongseng_test_2.pde
 │   │   │   └── screenshot.png
 │   │   ├── tomie89
 │   │   │   ├── README.md
+│   │   │   ├── TuioFace2
+│   │   │   │   ├── TUIOMethods.pde
+│   │   │   │   ├── TuioFace2.pde
+│   │   │   │   └── data
+│   │   │   │       └── Chalkduster-48.vlw
 │   │   │   └── screenshot.png
 │   │   └── wookeeeee
 │   │       ├── README.md
@@ -334,6 +631,8 @@
 │       │       └── sketch_3_ftb_edit.pde
 │       ├── jonij
 │       │   ├── README.md
+│       │   ├── quadrate
+│       │   │   └── quadrate.pde
 │       │   └── screenshot.png
 │       ├── lightwaveez
 │       │   ├── README.md
@@ -344,10 +643,12 @@
 │       │   ├── functions.pde
 │       │   └── screenshot.png
 │       ├── nushin
+│       │   ├── HA_EA_Patternprocedure_Nu_Dreiecke.pde
 │       │   ├── README.md
 │       │   └── screenshot.png
 │       ├── pfingstday
-│       │   ├── CircutOnSteroids.pde
+│       │   ├── CircutOnSteroids
+│       │   │   └── CircutOnSteroids.pde
 │       │   ├── README.md
 │       │   └── screenshot.png
 │       ├── ronleisner
@@ -377,4 +678,4 @@
 │           └── screenshot.png
 └── tree.txt
 
-113 directories, 264 files
+186 directories, 492 files
