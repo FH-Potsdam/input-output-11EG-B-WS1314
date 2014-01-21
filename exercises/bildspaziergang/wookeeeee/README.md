@@ -8,5 +8,5 @@ Starten sie auf dem Platz von Babylon-Kino, Rosa-Luxemburg-Platz und laufen Sie 
 Achtung: Parallelstraße ist keine Strasse, sondern nur eine Bezeichnung für doppelten Strassen, die sich parallel sind.
 
 ##[AUTHOR](https://github.com/wookeeeee)  
-Hello my name is [wookeeeee](https://github.com/wookeeeee) and I'd like to say... 
+Jinwook Yun 
 ##LICENSE  
