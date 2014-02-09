@@ -21,9 +21,9 @@ ____
 __Summary__  
 The goal of the Mimose project was to simulate a touch sensitive plant consisting of noiseless musclewire and lightweight transparent paper only.    
 
-*See media folder for images and videos.* Please note that the demo video is supposed to visualise the effect and does not display the actual setup. The demo video shows a tilt switch which is not actually connected. __Since there were multiple unsolved problems with the actuation of the musclewire within the project, the demo video is a fake. __ 
+*See media folder for images and videos.* Please note that the demo video is supposed to visualise the effect and does not display the actual setup. The demo video shows a tilt switch which is not actually connected. __Since there were multiple unsolved problems with the actuation of the musclewire within the project, the demo video is a fake.__ 
   
-Several tests before revealed that the usage of musclewire is not as easy as I thought. It was almost impossible to control the actual effect (e.g. the direction of the contraction). Sometimes it seemed like the wire would rather expand than contract.
+Several tests before (see media folder) revealed that the usage of musclewire is not as easy as I thought. It was almost impossible to control the actual effect (e.g. the direction of the contraction). Sometimes it seemed like the wire would rather expand than contract.
   
 The code and Fritzing layout attached support an easy setup which unfortunately didn't work in the end, either. Replace the musclewire in the Fritzing layout by a few more cords including crocodile clips. 
 ____  
