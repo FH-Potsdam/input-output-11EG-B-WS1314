@@ -1,6 +1,8 @@
 ![image](screenshot.png)  
-#TITLE  
-##DESCRIPTION  
+#TITLE
+multitouch exercise  
+##DESCRIPTION
+das ist Veränderung von multitouch example code  
 ##AUTHOR  
-Hello my name is [wookeeeee](https://github.com/wookeeeee) and I'd like to say... 
+Jinwook Yun
 ##LICENSE  
