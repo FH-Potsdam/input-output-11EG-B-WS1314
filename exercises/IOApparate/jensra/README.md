@@ -1,4 +1,4 @@
- 
+![image](screenshot.png)   
 #Mimose Project  
 __Simulation of a sensitive plant using musclewire and transparent paper.__
 
