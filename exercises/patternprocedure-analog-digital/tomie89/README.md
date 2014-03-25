@@ -1,6 +1,13 @@
 ![image](screenshot.png)  
 #Digitalization
 ##patternprocedure from analog to digital
+
+in german version:
+
+1. Erstellen Sie einen Quadrat
+2. Erstellen Sie ein weiteren Quadrat, aber er muss um 45° Winkel gedreht werden, so dass jedes Eck dieses Quadrat an jede mittlere Linie des vorherigen Quadrats so exakt berühren muss.
+3. wiederholen sie die zweite Anweisung so viel wie möglichst, bis das Quadrat in der Unendlichkeit versunken ist, allerdings können Sie die Grad des Winkeles statt 45° selbst bestimmen.
+
 -----
 
 It deals with a digital process or digitalization, which I've written an analog prodedure and i should try to digitalize this prodedure for processing that understand Java-Language, only.
