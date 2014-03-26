@@ -1,6 +1,10 @@
 ![image](screenshot.png)  
 #TITLE  
+EGO
 ##DESCRIPTION  
+Poster made with eye-tracking results from read songtext.
 ##AUTHOR  
-Hello my name is [jonij](https://github.com/jonij) and I'd like to say... 
-##LICENSE  
+[jonij](https://github.com/jonij)
+##LICENSE
+CC
+
