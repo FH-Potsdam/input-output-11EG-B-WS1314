@@ -5,6 +5,16 @@ Intelligent Clock that reminds to ventilate your room
 
 ---
 
+##Konzept
+
+---
+
+##Wiring
+
+![image](fritzing-layout.png)
+
+---
+
 #####@FH Potsdam, WS 2013/2014 
 [Eingabe, Ausgabe. Grundlagen der prozessorientierten Gestaltung](https://incom.org/workspace/4693)
 
