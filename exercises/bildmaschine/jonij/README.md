@@ -2,7 +2,7 @@
 #TITLE  
 EGO
 ##DESCRIPTION  
-Poster made with eye-tracking results from read songtext.
+Poster made with eye-tracking results from a read songtext.
 ##AUTHOR  
 [jonij](https://github.com/jonij)
 ##LICENSE
