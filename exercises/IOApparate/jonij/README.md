@@ -1,7 +1,12 @@
 ![fritzing-layout](fritzing-layout.png)  
 ![image](screenshot.png)  
 #TITLE  
-##DESCRIPTION  
+Einkaufszettel
+##DESCRIPTION 
+a interactive shopping list made using arduino. 
+#CIRCUIT  
+![image](fritzing-layout.png)  
 ##AUTHOR  
-Hello my name is [jonij](https://github.com/jonij) and I'd like to say... 
-##LICENSE  
+[jonij](https://github.com/jonij)
+##LICENSE
+CC  
