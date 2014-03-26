@@ -1,4 +1,3 @@
-![fritzing-layout](fritzing-layout.png)  
 ![image](screenshot.png)  
 #TITLE  
 Einkaufszettel
