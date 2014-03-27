@@ -7,11 +7,33 @@ Intelligent Clock that reminds to ventilate your room
 
 ##Konzept
 
+Der Input erfolgt über einen Sensor, welcher konstant die Konzentration von Kohlenstoffmonoxid im Raum misst. Der Output erfolgt über einen Ring aus RGB-Leds, welcher je nach CO2 Konzentration einen anderen Zustand animmt.
+
+Eine geringe CO2 Konzentration wird durch ein angenehmes "Grün" visualisiert, welches in der Frequenz einer ruhigen Atmung pulsiert. 
+
+Überschreitet die CO2 Konzentration einen kritischen Wert, wechselt die Farbe über Orange bis hin zu einem hektisch pulsierenden Rot, welches an eine panische Schnapp-Atmung erinnert. 
+
+Durch blaues Leuchten wird signalisiert, dass der Raum ausreichend gelüftet wurde. 
+    
+
 ---
 
 ##Wiring
 
 ![image](fritzing-layout.png)
+
+
+---
+
+## RGB-LEDs
+
+Über Pulse-Width-Modulation (PMW) wird das Pulsieren des LED-Rings ermöglicht, welcher über die PMW-fähigen, digitalen Pins 5, 9 und 10 mit einem Arduino Micro verbunden ist.Im Prinzip können LEDs nur die Zustände „Ein“ oder „Aus“ annehmen; durch Pulsbreitenmodulation ist es aber möglich, das Intervall zwischen diesen Zuständen gezielt zu steuern. Durch die Trägheit des menschlichen Auges entsteht dadurch die Illusion, dass die LED dunkler (längeres Intervall) bzw. heller (kürzeres Intervall) leuchten würde.
+
+
+---
+
+## CO2-Sensor
+Ein neuer CO2-Sensor benötigt eine Betriebdauer bzw. „Einbrennzeit“ von ca. 48 Stunden, bis konstante Werte über einen analogen Pin auslesen werden können. Das liegt am besonderen Funktionsprinzip von Metalloxid-Hableitergassensoren: Das zu messende Gas (hier CO2) regiert direkt mit einem erhitzten Metallplättlichen im Sensor, welcher je nach Konzentration des Gases seine Leitfähigkeit verändert. 
 
 ---
 
