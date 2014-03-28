@@ -26,7 +26,7 @@
 ![nushin/image](nushin/screenshot.png)  
 ![nushin/image](nushin/fritzing-layout.png)  
 [pfingstday](https://github.com/pfingstday)  
-![pfingstday/image](pfingstday/screenshot.png)  
+![pfingstday/image](pfingstday/screenshot.jpg)  
 ![pfingstday/image](pfingstday/fritzing-layout.png)  
 [ronleisner](https://github.com/ronleisner)  
 ![ronleisner/image](ronleisner/screenshot.png)  

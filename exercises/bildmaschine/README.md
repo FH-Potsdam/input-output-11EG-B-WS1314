@@ -13,7 +13,7 @@
 [dueuel](https://github.com/dueuel)  
 ![dueuel/image](dueuel/screenshot.png)  
 [pfingstday](https://github.com/pfingstday)  
-![pfingstday/image](pfingstday/screenshot.png)  
+![pfingstday/image](pfingstday/screenshot.jpg)  
 [nushin](https://github.com/nushin)  
 ![nushin/image](nushin/screenshot.png)  
 [jonij](https://github.com/jonij)  
