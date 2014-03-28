@@ -3,13 +3,13 @@
 #Circuit on Steroids
 Digitale Übersetzung einer analogen Musteranweisung durch Processing.
 
----
 
 ##Musteranweisung
  
 * Jede Linie Gerade endet mit einem Punkt. Jeder Punkt ist mit einer Linie Gerade verbunden.* Es dürfen jeweils nur 2 Linien Geraden von einem Punkt abgehen. * Linien Geraden die durch einen Punkt verbunden sind, haben stets einen Winkel von 90 Grad zueinander.* ~~Punkte und Linien Geraden dürfen sich nicht kreuzen.~~ *nicht umsetzbar** Geraden sind schwarz und haben eine Konturstärke von 0,4 mm.
 Punkte sind schwarz und haben einen Durchmesser von 1 mm.
-* Zeichne auf einem weißen Papier im Format A4.  
+* Zeichne auf einem weißen Papier im Format A4. 
+--- 
 
 #####@FH Potsdam, WS 2013/2014 
 [Eingabe, Ausgabe. Grundlagen der prozessorientierten Gestaltung](https://incom.org/workspace/4693)

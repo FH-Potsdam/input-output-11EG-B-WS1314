@@ -2,12 +2,15 @@
 
 #Vibrating Circles
 Test Sketch für eine Multitouch Anwendung, welche über Tongseng durch das MacBook Trackpad simuliert wird. Ausgabe in Processing.
- 
+
+---
 
 #####@FH Potsdam, WS 2013/2014 
 [Eingabe, Ausgabe. Grundlagen der prozessorientierten Gestaltung](https://incom.org/workspace/4693)
 
 by Prof. Monika Hoinkis & Fabian Morón Zirfas
+
+---
 
 #####MIT License
 

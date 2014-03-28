@@ -3,7 +3,7 @@
 #VentiLate Timer
 Intelligent Clock that reminds to ventilate your room
 
----
+
 
 ##Konzept
 
@@ -16,23 +16,23 @@ Eine geringe CO2 Konzentration wird durch ein angenehmes "Grün" visualisiert, w
 Durch blaues Leuchten wird signalisiert, dass der Raum ausreichend gelüftet wurde. 
     
 
----
+
 
 ##Wiring
 
 ![image](fritzing-layout.png)
 
 
----
 
-## RGB-LEDs
+
+### RGB-LEDs
 
 Über Pulse-Width-Modulation (PMW) wird das Pulsieren des LED-Rings ermöglicht, welcher über die PMW-fähigen, digitalen Pins 5, 9 und 10 mit einem Arduino Micro verbunden ist.Im Prinzip können LEDs nur die Zustände „Ein“ oder „Aus“ annehmen; durch Pulsbreitenmodulation ist es aber möglich, das Intervall zwischen diesen Zuständen gezielt zu steuern. Durch die Trägheit des menschlichen Auges entsteht dadurch die Illusion, dass die LED dunkler (längeres Intervall) bzw. heller (kürzeres Intervall) leuchten würde.
 
 
----
 
-## CO2-Sensor
+
+### CO2-Sensor
 Ein neuer CO2-Sensor benötigt eine Betriebdauer bzw. „Einbrennzeit“ von ca. 48 Stunden, bis konstante Werte über einen analogen Pin auslesen werden können. Das liegt am besonderen Funktionsprinzip von Metalloxid-Hableitergassensoren: Das zu messende Gas (hier CO2) regiert direkt mit einem erhitzten Metallplättlichen im Sensor, welcher je nach Konzentration des Gases seine Leitfähigkeit verändert. 
 
 ---
