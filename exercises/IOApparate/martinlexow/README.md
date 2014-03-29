@@ -1,4 +1,4 @@
-![image](screenshot.jpg)
+![image](screenshot.png)
 
 #IX BEANIE
 Temperatur-sensitiver Beanie mit motorgestützen Ohrenklappen
