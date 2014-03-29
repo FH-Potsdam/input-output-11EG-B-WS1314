@@ -3,6 +3,7 @@
 #TITLE
 BE QUIET
 – Kurs: Eingabe/Ausgabe, Prof. Monika Hoinkis und Fabian Morón Zirfas
+– Wintersemester 13/14
 
 
 ##DESCRIPTION
@@ -11,7 +12,10 @@ Die bedrohliche Aufmachung der Kiste soll suggerieren das sich im Inneren eine g
 
 
 ##AUTHOR  
-Hello my name is [ebird-design](https://github.com/ebird-design) and I'd like to say... 
+Tim Ebert
+FH-Potsdam
+1. Semester Interface Design
+[ebird-design]
 
 
 ##LICENSE  

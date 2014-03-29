@@ -2,6 +2,7 @@
 #TITLE
 INFINITE TRIANGLES
 – Kurs: Eingabe/Ausgabe, Prof. Monika Hoinkis und Fabian Morón Zirfas
+– Wintersemester 13/14
 
 
 ##DESCRIPTION
@@ -19,7 +20,10 @@ Einige der Anweisungen, die für Menschen recht einfach umzusetzen sind, erwiese
 
 
 ##AUTHOR  
-Hello my name is [ebird-design](https://github.com/ebird-design) and I'd like to say... 
+Tim Ebert
+FH-Potsdam
+1. Semester Interface Design
+[ebird-design]
 
 
 ##LICENSE  

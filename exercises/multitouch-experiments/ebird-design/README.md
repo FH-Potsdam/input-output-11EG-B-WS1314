@@ -2,6 +2,7 @@
 #TITLE
 FIREWORK FINGERS V1.0
 – Kurs: Eingabe/Ausgabe, Prof. Monika Hoinkis und Fabian Morón Zirfas
+– Wintersemester 13/14
 
 
 ##DESCRIPTION
@@ -12,7 +13,10 @@ Das im Beispielordner von Processing vorhandene Partikelsystem wurde für Tuio u
 Momentan verdoppelt sich die Geschwindigkeit des Partikels mit jedem zusätzlichen Finger den man auf die Touchoberfläche auflegt.
 
 ##AUTHOR  
-Hello my name is [ebird-design](https://github.com/ebird-design) and I'd like to say... 
+Tim Ebert
+FH-Potsdam
+1. Semester Interface Design
+[ebird-design]
 
 
 ##LICENSE  
