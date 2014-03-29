@@ -1,4 +1,4 @@
-![image](screenshot.jpg)
+![image](screenshot.png)
 
 #Eyetracking Visualizr
 Süßigkeiten für die Augen. Zaubert interessante Muster aus EyeTracking-Daten.
