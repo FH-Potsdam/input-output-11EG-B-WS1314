@@ -7,6 +7,8 @@ Eine Kolliosionsabfrage + Scores sind bisher noch nicht intergriert.
 
 #####FH Potsdam, WS 2013/2014 
 
+Autor: David Röttger
+
 Entstanden im Kurs [Eingabe, Ausgabe. Grundlagen der prozessorientierten Gestaltung](https://incom.org/workspace/4693)
 
 bei Prof. Monika Hoinkis & Fabian Morón Zirfas
