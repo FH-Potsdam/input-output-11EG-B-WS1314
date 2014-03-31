@@ -3,6 +3,10 @@
 Bildspaziergang
  
 ##DESCRIPTION  
+Bei diesem Projekt sollte ein GPS-Datensatz visualisiert werden, der durch eine Spaziergangsanleitung erstellt worden war.
+Dabei wurde Processing verwendet, um den abgelaufenen Weg nachzuverfolgen.
+
+
 Anleitung_:
 Stell dich mit dem Rücken zu deiner Haustür und halte eine Münze bereit.
 Wirf die Münze: bei Zahl gehe links // bei Kopf gehe rechts.

@@ -3,6 +3,12 @@
 i/o
 
 ##DESCRIPTION  
+Processing wird dazu genutzt eine vorher analoge Zeichenanweisung für einen Menschen auszuführen.
+Es soll I/O gezeichnet werden.
+
+
+Analoge Zeichenanweisung:
+
 Lege bereit:
 ein weißes A4 Blatt
 ein Lineal mit einer Mindestlänge von 40cm
