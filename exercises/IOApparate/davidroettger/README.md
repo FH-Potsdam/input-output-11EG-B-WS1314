@@ -1,7 +1,7 @@
 ![fritzing-layout](fritzing-layout.png)  
 ![image](screenshot.png)  
 #Knock Drop
-Ardunino Projekt mit folgenden Funktionen:   
+Arduino Projekt mit folgenden Funktionen:   
 – Lampenschirm löst sich nach einem Klopfzeichen  
 – LED leuchtet  
 – Klopfcodes steuern weitere Funktionen der Lampe (LED kann an und aus geschaltet und der Sketch neu gestartet werden)  
