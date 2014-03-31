@@ -1,7 +1,7 @@
 ![image](screenshot.png)  
 #tracked consciousness
 
-Eyetracking Experiment. Entstanden sind zwei Plakate. Auf dem linken Plakat ist eine sogenannte Heatmap, die durch die Aufzeichnung von Augenbewegungen beim Ablesen einer bewusst gewählten Lesevorlage entstanden ist, zu sehen.
+Eyetracking Experiment. Entstanden sind zwei Plakate. Auf dem linken Plakat ist eine sogenannte Heatmap, die durch die Aufzeichnung von Augenbewegungen beim Ablesen einer bewusst gewählten Lesevorlage entstanden ist, zu sehen. Die Heatmap ist im Tobii-Eytracking-Programm erzeugt worden. 
 
 Für das rechte Plakat wurden die aufgezeichneten Daten in Processing eingelesen. Der Processing Sketch hat einen Vektor-Pfad ausgegeben welcher als Gestaltungselement dient.
 
