@@ -1,18 +1,18 @@
 ![fritzing-layout](fritzing-layout.png)  
 ![image](screenshot.png)  
 #Knock Drop
-Ardunino Projekt mit folgenden Funktionen: 
-– Lampenschirm löst sich nach einem Klopfzeichen
-– LED leuchtet
-– Klopfcodes steuern weitere Funktionen der Lampe (LED kann an und aus geschaltet und der Sketch neu gestartet werden)
+Ardunino Projekt mit folgenden Funktionen:   
+– Lampenschirm löst sich nach einem Klopfzeichen  
+– LED leuchtet  
+– Klopfcodes steuern weitere Funktionen der Lampe (LED kann an und aus geschaltet und der Sketch neu gestartet werden)  
 
 Verwendete Parts:
-– Lampenschirm der IKEA-Standleuchte „Storm“
-– 1 Piezo Sensor
-– 1 Servo
-– 1 weiße LED
-– Widerstände
-– Arduino UNO
+– Lampenschirm der IKEA-Standleuchte „Storm“  
+– 1 Piezo Sensor  
+– 1 Servo  
+– 1 weiße LED  
+– Widerstände  
+– Arduino UNO  
 
 ---
 
