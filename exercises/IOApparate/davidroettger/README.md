@@ -2,7 +2,7 @@
 ![image](screenshot.png)  
 #Knock Drop
 Arduino Projekt mit folgenden Funktionen:   
-– Lampenschirm löst sich nach einem Klopfzeichen  
+– Lampenschirm löst sich nach einem Klopfzeichen mit Hilfe eines Servos  
 – LED leuchtet  
 – Klopfcodes steuern weitere Funktionen der Lampe (LED kann an und aus geschaltet und der Sketch neu gestartet werden)  
 
