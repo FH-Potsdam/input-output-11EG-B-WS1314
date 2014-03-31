@@ -6,7 +6,7 @@ Ardunino Projekt mit folgenden Funktionen:
 – LED leuchtet  
 – Klopfcodes steuern weitere Funktionen der Lampe (LED kann an und aus geschaltet und der Sketch neu gestartet werden)  
 
-Verwendete Parts:
+Verwendete Parts:  
 – Lampenschirm der IKEA-Standleuchte „Storm“  
 – 1 Piezo Sensor  
 – 1 Servo  
