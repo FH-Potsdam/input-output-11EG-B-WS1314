@@ -1,8 +1,7 @@
 ![image](screenshot.png)
 
 #IX BEANIE
-Temperatur-sensitiver Beanie mit motorgestützen Ohrenklappen
-
+Temperatur-sensitiver Beanie mit motorgestützen Ohrenklappen (http://vimeo.com/86344341)
 
 
 ##Konzept

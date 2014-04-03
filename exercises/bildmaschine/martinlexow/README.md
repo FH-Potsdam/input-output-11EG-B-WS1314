@@ -1,7 +1,7 @@
 ![image](screenshot.png)
 
 #Eyetracking Visualizr
-Süßigkeiten für die Augen. Zaubert interessante Muster aus EyeTracking-Daten.
+Some eyecandy made with Processing, based on EyeTracking-Results.
 
 ---
 
@@ -11,7 +11,6 @@ Süßigkeiten für die Augen. Zaubert interessante Muster aus EyeTracking-Daten.
 by Prof. Monika Hoinkis & Fabian Morón Zirfas
 
 ---
-
 
 #####MIT License
 
